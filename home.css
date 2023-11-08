@@ -1,0 +1,195 @@
+/* header right file */
+body{
+    background-image: url("ashwalp.jpg");
+    background-repeat:repeat;
+    color: white;
+    width: 100%;
+    letter-spacing: 1px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header_right{
+    background-color: white;
+    color: white;
+    height: 125px;
+    width: 55%;
+    float: right;
+    margin-right: 10px;
+    visibility: hidden;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    visibility: visible;   
+    
+}
+
+ul li{
+    background-color: goldenrod;
+    color: black;
+    float: right;
+    margin: 2px 1%;
+    padding: 11px 4%;  
+    transition: 0.6s;
+    border-radius: 5px;
+}
+
+
+ul li:hover{
+   background-color: gold;
+}
+
+ul a{
+    color: white;
+    text-decoration: none;
+    /* visibility: visible;    */
+}
+
+ul a:hover{
+    /* visibility: visible;   */
+}
+
+/* header left file */
+
+
+h2{
+    background-attachment: fixed;
+    display: inline;
+    color: gold;
+    position: relative;
+    bottom: 30px;
+    left: 5px;
+}
+ h5{
+    letter-spacing: 0.5px;
+    background-attachment: fixed;
+    display: inline;
+    color: gold;
+    position: relative;
+    bottom: 10px;
+    right: 75px;
+} 
+img{
+    height: 60px;
+    width: 60px;
+}
+
+/* body part */
+
+.div_img1{
+    border: solid 1px white;
+    border-radius: 5%;
+    width: 60%;
+    height: 60%;
+    position: relative;
+    left: 20%;
+    top: 80px;
+    opacity: 0.6;
+    display: block;
+}
+
+.div_img1:hover{
+    display: block;
+    opacity: 1;
+    width: 60%;
+    height: 60%;
+    transition-duration: 1.5s;
+}
+
+h1{
+    letter-spacing: 2px;
+    font-size: xxx-large;
+    color: gold; 
+    text-align: center;
+ 
+}
+
+.body_img{
+    margin-top: 10%;
+    height: 600px;
+    width: 90%;
+    position: relative;
+    left: 7%;
+}
+
+
+.body_img img{
+    height: 300px;
+    width: 400px;
+    display: inline;
+    border: solid 1px gold;
+}
+
+.body_img .body_text{
+    position: relative;
+    left: 30%;
+    bottom: 55%;
+    width: 65%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.body_img .body_text h1{
+    text-align: left;
+    width: 40%;
+}
+
+.body_text1{
+    width: 90%;
+    position: absolute;
+    top: 310px;
+}
+
+.body_img .body_text1 h1{
+    text-align: left;
+}
+
+.body_text2{
+    margin-top: 5%;
+}
+
+.body_text2 h1{
+    text-align: left;
+}
+.body_img p a{
+    color: rgb(206, 206, 5);
+}
+
+
+.body_img p a:hover{
+    transition: 0.6s;
+    color: yellow;
+}
+footer{
+    margin-top: 15%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+
+}
+
+footer {
+    padding-top: 2%;
+    margin-top: 16%;
+    letter-spacing: 2px;
+    color: white;
+    text-align: center;
+    opacity: 0.7;
+}
+
+
+
+
+@media (max-width: 800px){
+    .body_img .body_text{  
+    color: brown;   
+
+    }
+    .body_text{
+        color: brown;
+    }
+
+
+} 

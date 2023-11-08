@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(167, 166, 163);
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+    
+.body_div{
+    height: 450px;
+    width: 30%;
+    margin: 10% 35%;
+    text-align: center;
+    background-color:rgba(75, 75, 72, 0.964);
+    border-radius: 5px;
+}
+
+ .body_div img{
+    margin-top: 2%;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    opacity: 0.8;
+     }
+.body_div h1{
+    color: gold;
+    text-align: center;
+    padding-top: 1%;
+    opacity: 0.9;
+    width: 50%;
+    padding: 2% 25%;
+    opacity: 0.8;
+}
+.body_div p{
+    color: gold;
+    width: 80%;
+    padding: 0 10%;
+    opacity: 0.8;
+}
+
+.body_div a{
+    background-color: goldenrod;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    visibility: visible;   
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.body_div a:hover{
+    transition: 0.6s;
+    background-color: gold;
+    visibility: visible;  
+}

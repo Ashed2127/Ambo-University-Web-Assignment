@@ -1,0 +1,87 @@
+/* header right file */
+body{
+   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+   background-color: white;
+   margin: 0%;
+}
+#header_right{
+    background-image:linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.7)), url("girlpic.jpg");  
+    height: 400px;
+    width: 100%;
+    margin-top: 0;
+}
+
+#header_right h1{
+    color: yellow;
+    font-size: xxx-large;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+}
+#header_right p{
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    color: yellow;
+    font-size: large;
+    padding: 40px 0;
+}
+ul{
+    list-style-type: none;
+    margin: 40px 0px;
+    padding: 0px;
+    visibility: visible;   
+    
+}
+
+ul li{
+    background-color: goldenrod;
+    border-radius: 5px;
+    float: right;
+    margin: 6px 10px;
+    padding: 11px 3%;
+    visibility: visible;   
+    color: black;
+}
+
+ul li:hover{ 
+   background-color: gold;
+   border-radius: 5px;
+   transition: 0.6s;
+}
+
+ul a{
+    color: black;
+    text-decoration: none;
+    visibility: visible;   
+}
+
+ul a:hover{
+    color: white;
+    visibility: visible;  
+}
+
+ul a li{
+    font-size: large;
+} 
+.about_department{
+    width: 80%;
+    margin: 10% 10%;
+}
+h2,h3{
+    text-align: center;
+    color: gold;
+}
+h2{
+    font-size: 2.5em;
+    font-family:  Roboto,sans-serif;
+}
+
+footer{
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    opacity: 0.7;
+}
